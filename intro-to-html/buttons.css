@@ -1,4 +1,5 @@
-<style>
+
+
     .Request-now-button{
     background-color: black;
     color: white;
@@ -136,31 +137,3 @@
     .Save-button:hover {
         background-color: lightsteelblue;
     }
-</style>
-
-
-<button class="Request-now-button">
-    Request now
-</button>
-<button class="Add-to-Cart-button">
-    Add to Cart
-</button>
-<button class="Sign-up-button">
-    Sign up
-</button>
-
-<button class="Get-started-button">
-    Get started
-</button>
-
-<button class="Download-button">
-    Download
-</button>
-
-<button class="Apply-on-company-website-button">
-    Apply on company website
-</button>
-
-<button class="Save-button">
-    Save
-</button>
