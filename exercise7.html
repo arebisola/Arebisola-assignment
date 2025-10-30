@@ -109,9 +109,10 @@
                 height: 28px;
                 border-style: none;
                 box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
-                margin-left: 380px;
-                 padding-left: 15px;
-                 display: block;
+                margin-bottom: 15px;
+                 padding-left: 25px;
+                display: block;
+                margin-left: 368px;
             }
             .first-name ,
             .last-name {
@@ -192,7 +193,79 @@
             padding-bottom: 10px;
             margin-top: 20px;
             font-weight: bold;
+            margin-bottom: 30px;
           }
+          .red-square {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+          }
+          .green-circle {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            border-radius: 100px;
+            margin-bottom: 20px;
+          }
+          .satisfy {
+            font-family: arial;
+            font-weight: bold;
+            padding-bottom: 15px;
+            display: block;
+            padding-top: 15px;
+          }
+          .yes-button ,
+          .no-button {
+            display: inline-block;
+                width: 33px;
+                background-color: rgb(224, 222, 222);
+                color: black;
+               
+          }
+        .serv-div {
+            width: 300px;
+            height: 100px;
+            background-color: rgb(240, 239, 239);
+            border: 3px black;
+        }
+        .yt-music {
+            font-family: arial;
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 10px;
+            display: block;
+            color: white;
+            padding-top: 15px;
+            padding-left: 10px;
+        }
+        .desky {
+            font-family: arial;
+            width: 356px;
+            color: rgb(94, 94, 94);
+            padding-left: 10px;
+        }
+        .yt-div {
+            width: 380px;
+            height: 130px;
+            background-color: rgb(37, 37, 37);
+        }
+        .google-div {
+            text-align: center;
+            height: 300px;
+        }
+        .search-button ,
+        .luck-button {
+            color: black;
+            font-weight: bold;
+            background-color: rgb(240, 239, 239);
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            text-align: center;
+            display: inline-block;
+            border: none;
+        }
         </style>
     </head>
     <body>
@@ -213,8 +286,7 @@
 </p>
 <input class="yes-bar" type="text" placeholder="Yes">
 <input class="no-bar" type="text" placeholder="No">
-<img class="google-logo" src="thumbnails/Google_2015_logo.svg.png">
-<input class="google-search" type="text" placeholder="Search Google or type a URL">
+
 <input class="first-name" type="text" placeholder="First name">
 <input class="last-name" type="text" placeholder="Last name">
 <input class="mail" type="text" placeholder="Email">
@@ -224,5 +296,24 @@
 <input class="destination" type="text" placeholder="Enter destination">
 <button class="request-now">Request now</button>
 <button class="schedule-button">Schedule for later</button>
+<div class="google-div">
+<img class="google-logo" src="thumbnails/Google_2015_logo.svg.png">
+<input class="google-search" type="text" placeholder="Search Google or type a URL">
+      <button class="search-button">Google Search</button>
+      <button class="luck-button">I'm Feeling Lucky</button>
+</div>
+<div class="red-square"></div>
+<div class="green-circle"></div>
+<div class="serv-div">
+    <p class="satisfy">
+        Satisfied with our service&#63;
+    </p>
+    <button class="yes-button">Yes</button>
+    <button class="no-button">No</button>
+</div>
+<div class="yt-div">
+    <p class="yt-music">Install YouTube Music</p>
+    <p class="desky">Add YouTube Music to your desktop for quick and easy access</p>
+</div>
     </body>
 </html>
